@@ -1,0 +1,258 @@
+package loops;
+import java.util.*;
+public class Forloop {
+	
+	public static void main(String[] args)
+	{	
+//		fibonacci
+//		int a=0,b=1,temp;
+//		Scanner sc =new Scanner(System.in);
+//		int n=sc.nextInt();
+//		System.out.println(a);
+//		System.out.println(b);
+//		
+//		for(int i=0;i<n-2;i++)
+//		{
+//			temp=a+b;
+//			System.out.println(temp);
+//			a=b;
+//			b=temp;
+//		}
+//			
+//					
+//
+		
+		
+		
+		
+		
+////		PRIME NUMBER PROGRAM
+//		Scanner sc =new Scanner(System.in);
+//		int n=sc.nextInt();
+//		int count=0;
+//		for(int i=1;i<=n;i++)
+//		{
+//			if(n%i==0) {
+//				count+=1;
+//			}
+//		}
+//		if(count==2)
+//		{
+//			System.out.println("it is a prime number ");
+//			
+//		}
+//		else {
+//			System.out.println("Its not a prime number");
+//		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		reverse program in java
+//		Scanner sc =new Scanner(System.in);
+//		int n1=sc.nextInt();
+//		int reverse1=0,remainder;
+//		int n;
+//		n=n1;
+//		while(n!=0)
+//		{
+//				remainder=n%10;
+//				reverse1=reverse1*10+remainder;
+//				n=n/10;
+//		}
+//			
+//		
+//	
+//		System.out.println(reverse1);
+//		
+		
+		
+		
+		
+		
+//		palindrome program
+//		Scanner sc =new Scanner(System.in);
+//		int n1=sc.nextInt();
+//		int reverse1=0,remainder;
+//		int n;
+//		n=n1;
+//		while(n!=0)
+//		{
+//				remainder=n%10;
+//				reverse1=reverse1*10+remainder;
+//				n=n/10;
+//		}
+//		if(reverse1==n1) {
+//			System.out.println("number is a palndrome numebr");
+//		}
+//		else {
+//			System.out.println("number is not a palindrome number ");
+//		}
+//		
+		
+		
+		
+		
+		
+		
+		
+//		Factorial number
+//		Scanner sc =new Scanner(System.in);
+//		int n1=sc.nextInt();
+//		int fact=1;
+//		for(int i=1;i<=n1;i++)
+//		{
+//			fact=fact*i;
+//		}
+//		System.out.println(fact);
+
+		
+	
+		
+//		
+		
+		
+		
+		
+		
+//		Armstrong number 
+//		Scanner sc =new Scanner(System.in);
+//		int n=sc.nextInt();
+//		int n1=n;
+//		int c,result=0;
+//		while(n1!=0)
+//		{
+//			c=n1%10;
+//			result+=c*c*c;
+//			n1=n1/10;
+//			
+//					
+//		}
+//		if (result==n)
+//		{
+//			System.out.println("armstrong number");
+//		}
+//		else {
+//			System.out.println("not an armstrong number");
+//		}
+
+		
+		
+		
+		
+		
+		
+//Automorphic number in java
+		Scanner sc =new Scanner(System.in);
+		int n=sc.nextInt();
+		int n1=n;
+		int m=n*n;//625
+		int c=0;//3
+		while(n1>0)
+		{
+			c++;
+			n1=n1/10;
+		}
+		int x=(int)Math.pow(10, c);//100
+		if(m%x==n) {
+			System.out.println("it is an automorphic number");
+		}
+		else {
+			System.out.println("it is not an automorphic number");
+		}
+		
+		
+			
+
+
+//nth prime number
+//		Scanner sc =new Scanner(System.in);
+//		int n=sc.nextInt();
+//		int count_res=0;
+//		if(n==1)
+//		{
+//			System.out.println(2);
+//		}
+//		else {
+//		int start=2,count_prime=0,last_prime=0;
+//		
+//		
+//			while(count_res!=n)
+//			{
+//				count_prime=0;
+//				for(int i=1;i<=start;i++)
+//				{
+//					if(start%i==0)
+//					{
+//						count_prime+=1;
+//					}
+//				}
+//				if(count_prime==2) {
+//					count_res+=1;
+//					last_prime=start;
+//				
+//					
+//				}
+//				start+=1;
+//				
+//			}
+//			System.out.println(last_prime);
+//		
+//		}
+		
+		
+
+		
+		
+//to check if  a given number is perfect square or not 
+//		Scanner sc =new Scanner(System.in);
+//		int n=sc.nextInt();
+//		if(n>0)
+//		{
+//			int squared=(int)Math.sqrt(n);
+//			if(squared*squared==n)
+//			{
+//				System.out.println("number is a perfect square");
+//			}
+//			else {
+//				System.out.println("number is not a perfect square");
+//			}
+//		}
+//		else {
+//			System.out.println("number is not  a perfect square");
+//		}
+		
+		
+		
+		
+		
+		
+//		to find square root of  a function without fucntion
+//		Scanner sc =new Scanner(System.in);
+//		int num=sc.nextInt();
+//		double temp;
+//		double sr=num/2;
+//		
+//		do {
+//			temp=sr;
+//			sr=(temp+(num/temp))/2;
+//		}while((temp-sr)!=0);
+//		System.out.println("square root of a number is "+sr);
+
+		
+		
+		
+		
+		
+	
+
+
+	}
+
+}
